@@ -7,7 +7,7 @@ Introduction to scRNA-seq analysis, November 2025.
 
 This repository contains very few files, including `index.md` where the content course homepage is defined. 
 
-The actual course materials are in a submodule, which points to the [base repository](https://github.com/bioinformatics-core-shared-training/UnivCambridge_ScRnaSeqIntro_Base), where the latest materials are kept up-to-date. 
+The actual course materials are in a submodule, which points to the [base repository](https://github.com/bioinformatics-core-shared-training/SingleCell_Seurat_Base), where the latest materials are kept up-to-date. 
 
 If you are updating the materials, please **make all changes in the base repo**:
 
@@ -21,8 +21,8 @@ Then, **to update the submodule on this repository** (so that the latest changes
     - Note that the `--recurse-submodules` option is important.
 - Pull/update the submodule, add, commit and push: 
     ```bash
-    git submodule update --remote --merge UnivCambridge_ScRnaSeqIntro_Base
-    git add UnivCambridge_ScRnaSeqIntro_Base
+    git submodule update --remote --merge SingleCell_Seurat_Base
+    git add SingleCell_Seurat_Base
     git commit -m "update base submodule"
     git push
     ```

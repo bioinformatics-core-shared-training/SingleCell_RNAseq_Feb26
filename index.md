@@ -1,15 +1,15 @@
 # Introduction to single-cell RNA-seq data analysis
 
-### 28th Nov, 1st and 4th Dec 2025 || 09:30 - 17:00
+### 9, 16, 23 February 2026 || 09:30 - 17:00
 #### Online via Zoom
 
-![](UnivCambridge_ScRnaSeqIntro_Base/Images/uniOfCamCrukLogos.png)
+![](SingleCell_Seurat_Base/Images/uniOfCamCrukLogos.png)
 
 ## Instructors
 
 - Abbi Edwards (CRUK)
+- Adam Reid (Gurdon Institute)
 - Betty Wang (Clinical Neurosciences)
-- Chandra Chilamakuri (CRUK)
 - Hugo Tavares (CRIT)
 - Guest Speaker: Kasia Kania (Cosyne Therapeutics)
 
@@ -56,62 +56,55 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 
 * 09:30 - 09:45 **Welcome** - Abbi
 * 09:45 - 10:30 **Introduction to Single Cell Technologies** - Katarzyna Kania
-    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/01_Introduction.pdf)
-* 10:30 - 10:44 **Preamble**: data set and workflow - Chandra
-    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/02_PreambleSlides.html)
+    + [Slides](SingleCell_Seurat_Base/Slides/01_Introduction.pdf)
+* 10:30 - 10:44 **Preamble**: data set and workflow - Adam
+    + [Slides](SingleCell_Seurat_Base/Slides/02_PreambleSlides.html)
 * 10:45 - 11:00 - **Break**
-* 11:00 - 12:30 Library structure, **cellranger** for alignment and cell calling - Chandra
-    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/03_CellRangerSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/03_CellRangerSlides.pdf)\)
-    + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/03_CellRanger.html)
+* 11:00 - 12:30 Library structure, **cellranger** for alignment and cell calling - Adam
+    + [Slides](SingleCell_Seurat_Base/Slides/03_CellRangerSlides.html) \([pdf](SingleCell_Seurat_Base/Slides/03_CellRangerSlides.pdf)\)
+    + [Demonstration](SingleCell_Seurat_Base/Markdowns/03_CellRanger.html)
 * 12:30 - 13:30 **Lunch break**
 * 13:30 - 17:00 **QC and exploratory analysis** - Abbi
-    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/04_QualityControlSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/04_QualityControlSlides.pdf)\)
-    + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/04_Preprocessing_And_QC.html)
+    + [Slides](SingleCell_Seurat_Base/Slides/04_QualityControlSlides.html) \([pdf](SingleCell_Seurat_Base/Slides/04_QualityControlSlides.pdf)\)
+    + [Demonstration](SingleCell_Seurat_Base/Markdowns/04_Preprocessing_And_QC.html)
         <!-- + [Demo live script](live_scripts/04_demonstration_live_script.R) -->
-    + [Practical](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/04_Preprocessing_And_QC.Exercise.html)  
+    + [Practical](SingleCell_Seurat_Base/Markdowns/04_Preprocessing_And_QC.Exercise.html)  
        <!-- + [Exercise live script](live_scripts/04_exercise_live_script.R) -->
 
 ### Day 2
 
 
-* 09:30 - 09:40 **Recap** - Abbi
-    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/00_Day1_Recap.html)
-* 09:40 - 12:30 **Normalisation** - Abbi
-    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/05_NormalisationSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/05_NormalisationSlides.pdf)\)
-    + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/05_Normalisation.html)    
-    + [Practical](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/05_Normalisation_exercises.html)
+* 09:30 - 09:40 **Recap** - Adam
+    + [Slides](SingleCell_Seurat_Base/Slides/00_Day1_Recap.html)
+* 09:40 - 12:30 **Normalisation and feature selection** - Adam
+    + [Slides](SingleCell_Seurat_Base/Slides/05_NormalisationSlides.html) \([pdf](SingleCell_Seurat_Base/Slides/05_NormalisationSlides.pdf)\)
+    + [Demonstration](SingleCell_Seurat_Base/Markdowns/05_Normalisation.html)    
+    + [Practical](SingleCell_Seurat_Base/Markdowns/05_Normalisation_exercises.html)
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 15:25 **Feature selection and dimensionality reduction** - Chandra
-    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.pdf)\)
-    + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/06_FeatureSelectionAndDimensionalityReduction.html)
+* 13:30 - 15:25 **Dimensionality reduction** - Betty
+    + [Slides](SingleCell_Seurat_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.html) \([pdf](SingleCell_Seurat_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.pdf)\)
+    + [Demonstration](SingleCell_Seurat_Base/Markdowns/06_FeatureSelectionAndDimensionalityReduction.html)
 * 15:25 - 15:35 10 min **break**
-* 15:35 - 17:30 **Batch correction and data set integration** - Hugo
-    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.pdf)\)
-    + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/07_Dataset_Integration.html)
+* 15:35 - 17:30 **Batch correction and data set integration** - Abbi
+    + [Slides](SingleCell_Seurat_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.html) \([pdf](SingleCell_Seurat_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.pdf)\)
+    + [Demonstration](SingleCell_Seurat_Base/Markdowns/07_Dataset_Integration.html)
    
 
 ### Day 3
 
 * 09:30 - 09:40 Recap - Abbi
 * 09:40 - 11:05 **Cell clustering** - Abbi
-    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/08_ClusteringSlides.html)
-    + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/08_Clustering.html)
+    + [Slides](SingleCell_Seurat_Base/Slides/08_ClusteringSlides.html)
+    + [Demonstration](SingleCell_Seurat_Base/Markdowns/08_Clustering.html)
 * 11:05 - 11:15 10 min **break**
-* 11:15 - 12:30 **Identification of cluster marker genes** - Chandra
-    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/09_ClusterMarkerGenes.html)
-    + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/09_Cluster_Marker_Genes.html)
+* 11:15 - 12:30 **Identification of cluster marker genes** - Abbi
+    + [Slides](SingleCell_Seurat_Base/Slides/09_ClusterMarkerGenes.html)
+    + [Demonstration](SingleCell_Seurat_Base/Markdowns/09_Cluster_Marker_Genes.html)
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 17.30 **Differential Expression and Abundance Analysis** - Betty (DE) & Chandra (DA)
-    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/10_DifferentialExpressionAndAbundance.pdf) 
-    + [Demonstration - Differential Expression](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/10_Differential_Expression.html)
-    + [Demonstration - Differential Abundance](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/11_Differential_Abundance.html)
-
-
-## Extended Materials
-
-* **Seurat** walkthrough:
-  * Part 1: [Data pre-processing](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/101-seurat_part1.html)
-  * Part 2: [Cell clustering and annotation](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/101-seurat_part2.html)
+* 13:30 - 17.30 **Differential Expression and Abundance Analysis** - Adam (DE) & Betty (DA)
+    + [Slides](SingleCell_Seurat_Base/Slides/10_DifferentialExpressionAndAbundance.pdf) 
+    + [Demonstration - Differential Expression](SingleCell_Seurat_Base/Markdowns/10_Differential_Expression.html)
+    + [Demonstration - Differential Abundance](SingleCell_Seurat_Base/Markdowns/11_Differential_Abundance.html)
 
 
 ## Software Installation
@@ -125,21 +118,33 @@ However, if you want to run the analysis on your own computer, you can follow th
 * Open RStudio and run the following commands from the console:
     ```r
     install.packages("BiocManager")
-    BiocManager::install(c("AnnotationHub", "BiocParallel", "BiocSingular", "DropletUtils", "PCAtools", "batchelor", "bluster", "cluster", "clustree", "dynamicTreeCut", "edgeR", "ensembldb", "ggplot2", "igraph", "patchwork", "pheatmap", "scater", "scran", "tidyverse"))
+    BiocManager::install(c("sctransform", "Seurat", "tidyverse", "Matrix", "glmGamPoi", "patchwork"))
     ```
 
 For Cellranger, you will need to use a Linux machine.
-See the [installation instructions from 10x Genomics](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/installation).
+See the [installation instructions from 10x Genomics](https://www.10xgenomics.com/support/software/cell-ranger/latest/tutorials/cr-tutorial-in).
 
 
 ## Acknowledgments:
 
-Much of the material in this course has been derived from the demonstrations found in
+Much of the material in this course has been derived from the demonstrations found in the
 [OSCA book](https://bioconductor.org/books/release/OSCA/)
-and the [Hemberg Group course materials](https://www.singlecellcourse.org/). Additional material concerning `miloR` has been based on the [demonstration from the Marioni Lab](https://marionilab.github.io/miloR/articles/milo_demo.html).
+and the [Hemberg Group course materials](https://www.singlecellcourse.org/). 
+Additional material concerning `miloR` has been based on the [demonstration from the Marioni Lab](https://marionilab.github.io/miloR/articles/milo_demo.html).
 
 The materials have been contributed to by many individuals over the last 2 years, including:
 
-Abigail Edwards, Ashley D Sawle, Chandra Chilamakuri, Kamal Kishore, Stephane Ballereau, Zeynep Kalendar Atak, Hugo Tavares, Jon Price, Katarzyna Kania, Roderik Kortlever, Adam Reid, Tom Smith
+- Abigail Edwards
+- Adam Reid
+- Ashley D Sawle
+- Chandra Chilamakuri
+- Hugo Tavares
+- Jon Price
+- Kamal Kishore
+- Katarzyna Kania
+- Roderik Kortlever
+- Stephane Ballereau
+- Tom Smith
+- Zeynep Kalendar Atak
 
 Apologies if we have missed anyone!
