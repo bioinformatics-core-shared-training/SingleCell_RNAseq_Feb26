@@ -68,7 +68,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
     + [Slides](SingleCell_Seurat_Base/Slides/04_QualityControlSlides.html) \([pdf](SingleCell_Seurat_Base/Slides/04_QualityControlSlides.pdf)\)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/04_Preprocessing_And_QC.html)
         <!-- + [Demo live script](live_scripts/04_demonstration_live_script.R) -->
-    + [Practical](SingleCell_Seurat_Base/Markdowns/04_Preprocessing_And_QC.Exercise.html)  
+    <!-- + [Practical](SingleCell_Seurat_Base/Markdowns/04_Preprocessing_And_QC.Exercise.html)   -->
        <!-- + [Exercise live script](live_scripts/04_exercise_live_script.R) -->
 
 ### Day 2
