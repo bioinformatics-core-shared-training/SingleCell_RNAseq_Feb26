@@ -61,11 +61,11 @@ of gene expression data, such as TSNE, UMAP and violin plots.
     + [Slides](SingleCell_Seurat_Base/Slides/02_PreambleSlides.html)
 * 10:45 - 11:00 - **Break**
 * 11:00 - 12:30 Library structure, **cellranger** for alignment and cell calling - Adam
-    + [Slides](SingleCell_Seurat_Base/Slides/03_CellRangerSlides.html) \([pdf](SingleCell_Seurat_Base/Slides/03_CellRangerSlides.pdf)\)
+    + [Slides](SingleCell_Seurat_Base/Slides/03_CellRangerSlides.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/03_CellRanger.html)
 * 12:30 - 13:30 **Lunch break**
 * 13:30 - 17:00 **QC and exploratory analysis** - Abbi
-    + [Slides](SingleCell_Seurat_Base/Slides/04_QualityControlSlides.html) \([pdf](SingleCell_Seurat_Base/Slides/04_QualityControlSlides.pdf)\)
+    + [Slides](SingleCell_Seurat_Base/Slides/04_QualityControlSlides.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/04_Preprocessing_And_QC.html)
         <!-- + [Demo live script](live_scripts/04_demonstration_live_script.R) -->
     <!-- + [Practical](SingleCell_Seurat_Base/Markdowns/04_Preprocessing_And_QC.Exercise.html)   -->
@@ -77,16 +77,16 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 * 09:30 - 09:40 **Recap** - Adam
     + [Slides](SingleCell_Seurat_Base/Slides/00_Day1_Recap.html)
 * 09:40 - 12:30 **Normalisation and feature selection** - Adam
-    + [Slides](SingleCell_Seurat_Base/Slides/05_NormalisationSlides.html) \([pdf](SingleCell_Seurat_Base/Slides/05_NormalisationSlides.pdf)\)
+    + [Slides](SingleCell_Seurat_Base/Slides/05_NormalisationSlides.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/05_Normalisation.html)    
     + [Practical](SingleCell_Seurat_Base/Markdowns/05_Normalisation_exercises.html)
 * 12:30 - 13:30 **lunch break**
 * 13:30 - 15:25 **Dimensionality reduction** - Betty
-    + [Slides](SingleCell_Seurat_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.html) \([pdf](SingleCell_Seurat_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.pdf)\)
+    + [Slides](SingleCell_Seurat_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/06_FeatureSelectionAndDimensionalityReduction.html)
 * 15:25 - 15:35 10 min **break**
 * 15:35 - 17:30 **Batch correction and data set integration** - Abbi
-    + [Slides](SingleCell_Seurat_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.html) \([pdf](SingleCell_Seurat_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.pdf)\)
+    + [Slides](SingleCell_Seurat_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/07_Dataset_Integration.html)
    
 
