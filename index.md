@@ -67,9 +67,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 * 13:30 - 17:00 **QC and exploratory analysis** - Abbi
     + [Slides](SingleCell_Seurat_Base/Slides/04_QualityControlSlides.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/04_Preprocessing_And_QC.html)
-        <!-- + [Demo live script](live_scripts/04_demonstration_live_script.R) -->
-    <!-- + [Practical](SingleCell_Seurat_Base/Markdowns/04_Preprocessing_And_QC.Exercise.html)   -->
-       <!-- + [Exercise live script](live_scripts/04_exercise_live_script.R) -->
+        
 
 ### Day 2
 
@@ -82,8 +80,8 @@ of gene expression data, such as TSNE, UMAP and violin plots.
     + [Practical](SingleCell_Seurat_Base/Markdowns/05_Normalisation_exercises.html)
 * 12:30 - 13:30 **lunch break**
 * 13:30 - 15:25 **Dimensionality reduction** - Betty
-    + [Slides](SingleCell_Seurat_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.html)
-    + [Demonstration](SingleCell_Seurat_Base/Markdowns/06_FeatureSelectionAndDimensionalityReduction.html)
+    + [Slides](SingleCell_Seurat_Base/Slides/06_DimensionalityReduction_slides.html)
+    + [Demonstration](SingleCell_Seurat_Base/Markdowns/06_DimensionalityReduction.html)
 * 15:25 - 15:35 10 min **break**
 * 15:35 - 17:30 **Batch correction and data set integration** - Abbi
     + [Slides](SingleCell_Seurat_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.html)
