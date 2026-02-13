@@ -76,8 +76,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
     + [Slides](SingleCell_Seurat_Base/Slides/00_Day1_Recap.html)
 * 09:40 - 12:30 **Normalisation and feature selection** - Adam
     + [Slides](SingleCell_Seurat_Base/Slides/05_NormalisationSlides.html)
-    + [Demonstration](SingleCell_Seurat_Base/Markdowns/05_Normalisation.html)    
-    + [Practical](SingleCell_Seurat_Base/Markdowns/05_Normalisation_exercises.html)
+    + [Demonstration](SingleCell_Seurat_Base/Markdowns/05_NormalisationAndFeatureSelection.html)    
 * 12:30 - 13:30 **lunch break**
 * 13:30 - 15:25 **Dimensionality reduction** - Betty
     + [Slides](SingleCell_Seurat_Base/Slides/06_DimensionalityReduction_slides.html)
