@@ -83,7 +83,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/06_DimensionalityReduction.html)
 * 15:25 - 15:35 10 min **break**
 * 15:35 - 17:30 **Batch correction and data set integration** - Abbi
-    + [Slides](SingleCell_Seurat_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.html)
+    + [Slides](SingleCell_Seurat_Base/Slides/07_DatasetIntegration.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/07_Dataset_Integration.html)
    
 
