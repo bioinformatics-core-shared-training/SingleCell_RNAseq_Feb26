@@ -99,10 +99,10 @@ of gene expression data, such as TSNE, UMAP and violin plots.
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/09_Cluster_Marker_Genes.html)
 * 12:30 - 13:30 **lunch break**
 * 13:30 - 16.00 **Differential Expression Analysis** - Adam
-	+ [Slides](SingleCell_Seurat_Base/Slides/10_Differential_Expression_Slides_.html)
+	+ [Slides](SingleCell_Seurat_Base/Slides/10_Differential_Expression_Slides.html)
 	+ [Demonstration](SingleCell_Seurat_Base/Markdowns/10_Differential_Expression.html)
 * 16.00 - 17.30 **Differential Abundance Analysis** - Betty
-	+ [Slides](SingleCell_Seurat_Base/Slides/10_Differential_Abundance_Slides_.html)
+	+ [Slides](SingleCell_Seurat_Base/Slides/11_Differential_Abundance_Slides.html)
 	+ [Conversion to SingleCellExperiment](SingleCell_Seurat_Base/Markdowns/10a_ConversionToSce.html)
 	+ [Milo Demonstration](SingleCell_Seurat_Base/Markdowns/11_Differential_Abundance.html)
 
