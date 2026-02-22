@@ -103,7 +103,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 	+ [Demonstration](SingleCell_Seurat_Base/Markdowns/10_Differential_Expression.html)
 * 16.00 - 17.30 **Differential Abundance Analysis** - Betty
 	+ [Slides](SingleCell_Seurat_Base/Slides/11_Differential_Abundance_Slides.html)
-	+ [Conversion to SingleCellExperiment](SingleCell_Seurat_Base/Markdowns/10a_ConversionToSce.html)
+	+ [Conversion to SingleCellExperiment](SingleCell_Seurat_Base/Markdowns/10a_ConversionToSCE.html)
 	+ [Milo Demonstration](SingleCell_Seurat_Base/Markdowns/11_Differential_Abundance.html)
 
 
