@@ -98,11 +98,13 @@ of gene expression data, such as TSNE, UMAP and violin plots.
     + [Slides](SingleCell_Seurat_Base/Slides/09_ClusterMarkerGenes.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/09_Cluster_Marker_Genes.html)
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 17.30 **Differential Expression and Abundance Analysis** - Adam (DE) & Betty (DA)
-    + [Slides](SingleCell_Seurat_Base/Slides/10_DifferentialExpressionAndAbundance.pdf) 
-    + [Demonstration - Differential Expression](SingleCell_Seurat_Base/Markdowns/10_Differential_Expression.html)
-    + [Conversion to SingleCellExperiment](SingleCell_Seurat_Base/Markdowns/10a_ConversionToSce.html)
-    + [Demonstration - Differential Abundance](SingleCell_Seurat_Base/Markdowns/11_Differential_Abundance.html)
+* 13:30 - 16.00 **Differential Expression Analysis** - Adam
+	+ [Slides](SingleCell_Seurat_Base/Slides/10_Differential_Expression_Slides_.html)
+	+ [Demonstration](SingleCell_Seurat_Base/Markdowns/10_Differential_Expression.html)
+* 16.00 - 17.30 **Differential Abundance Analysis** - Betty
+	+ [Slides](SingleCell_Seurat_Base/Slides/10_Differential_Abundance_Slides_.html)
+	+ [Conversion to SingleCellExperiment](SingleCell_Seurat_Base/Markdowns/10a_ConversionToSce.html)
+	+ [Milo Demonstration](SingleCell_Seurat_Base/Markdowns/11_Differential_Abundance.html)
 
 
 ## Software Installation
@@ -125,12 +127,14 @@ See the [installation instructions from 10x Genomics](https://www.10xgenomics.co
 
 ## Acknowledgments:
 
-Much of the material in this course has been derived from the demonstrations found in the
+This version of the course is a rewrite by Abigail Edwards and Hugo Tavares using the [Seurat](https://satijalab.org/seurat/) package of the original course developed as detailed below
+
+Much of the material was been derived from the demonstrations found in the
 [OSCA book](https://bioconductor.org/books/release/OSCA/)
 and the [Hemberg Group course materials](https://www.singlecellcourse.org/). 
 Additional material concerning `miloR` has been based on the [demonstration from the Marioni Lab](https://marionilab.github.io/miloR/articles/milo_demo.html).
 
-The materials have been contributed to by many individuals over the last 2 years, including:
+The materials have been contributed to by many individuals over the last several years, including:
 
 - Abigail Edwards
 - Adam Reid
