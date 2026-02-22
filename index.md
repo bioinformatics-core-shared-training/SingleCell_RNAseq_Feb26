@@ -1,6 +1,6 @@
 # Introduction to single-cell RNA-seq data analysis
 
-### 9, 16, 23 February 2026 || 09:30 - 17:00
+### 9, 16, 23 February 2026 || 09:30 - 17:30
 #### Online via Zoom
 
 ![](SingleCell_Seurat_Base/Images/uniOfCamCrukLogos.png)
@@ -91,7 +91,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 
 * 09:30 - 09:40 Recap - Abbi
 * 09:40 - 11:05 **Cell clustering** - Abbi
-    + [Slides](SingleCell_Seurat_Base/Slides/08_ClusteringSlides.html)
+    + [Slides](SingleCell_Seurat_Base/Slides/08_Clustering_Slides.html)
     + [Demonstration](SingleCell_Seurat_Base/Markdowns/08_Clustering.html)
 * 11:05 - 11:15 10 min **break**
 * 11:15 - 12:30 **Identification of cluster marker genes** - Abbi
