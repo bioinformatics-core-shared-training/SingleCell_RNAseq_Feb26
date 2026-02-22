@@ -129,7 +129,7 @@ See the [installation instructions from 10x Genomics](https://www.10xgenomics.co
 
 This version of the course is a rewrite by Abigail Edwards and Hugo Tavares using the [Seurat](https://satijalab.org/seurat/) package of the original course developed as detailed below
 
-Much of the material was been derived from the demonstrations found in the
+Much of the material has been derived from the demonstrations found in the
 [OSCA book](https://bioconductor.org/books/release/OSCA/)
 and the [Hemberg Group course materials](https://www.singlecellcourse.org/). 
 Additional material concerning `miloR` has been based on the [demonstration from the Marioni Lab](https://marionilab.github.io/miloR/articles/milo_demo.html).
