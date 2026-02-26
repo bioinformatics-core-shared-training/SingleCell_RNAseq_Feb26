@@ -128,9 +128,26 @@ However, if you want to run the analysis on your own computer, you can follow th
   * (Windows users only): Download and install RTools: https://cran.r-project.org/bin/windows/Rtools/
 * Download and install RStudio: https://www.rstudio.com/products/rstudio/download/#download
 * Open RStudio and run the following commands from the console:
+
     ```r
     install.packages("BiocManager")
-    BiocManager::install(c("sctransform", "Seurat", "tidyverse", "Matrix", "glmGamPoi", "patchwork"))
+    BiocManager::install(c("sctransform",
+                           "Seurat",
+                           "tidyverse",
+                           "ggbeeswarm",
+                           "glmGamPoi",
+                           "patchwork",
+                           "SparseArray",
+                           "scales",
+                           "bluster",
+                           "cluster",
+                           "DESeq2",
+                           "SingleCellExperiment",
+                           "scater",
+                           "BiocParallel",
+                           "miloR",
+                           "scran",
+                           "Matrix"))
     ```
 
 For Cellranger, you will need to use a Linux machine.
