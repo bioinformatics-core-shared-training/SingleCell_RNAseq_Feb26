@@ -43,13 +43,19 @@ of gene expression data, such as TSNE, UMAP and violin plots.
   relating to pediatric leukemia, with four sample types, including:
   * pediatric Bone Marrow Mononuclear Cells (PBMMCs)
   * three tumour types: ETV6-RUNX1, HHD, PRE-T  
-* The data used in the course can be [downloaded from Dropbox](https://www.dropbox.com/scl/fo/9uu4iuapr60jfu2bvggdz/AFaCOxLcO5aKrqzHiEUD1ao?rlkey=zqkpbux9q0yak8e0ok59djfr0&st=inmhk174&dl=0). Please note that:
+* The data used in the course can be [downloaded from Dropbox](https://www.dropbox.com/scl/fo/9x1rg6qxqw5crq2vtb1ho/AMawguf1kqRYQQs-qZPhFZA?rlkey=6y4w1skyjzpq36zfyocis24t6&st=vh4vbsvc&dl=0). Please note that:
   * these data have been processed for teaching purposes and are therefore not suitable for research use;
   * all the data is provided on our training machines, you don't need to download it to attend the course.
 
 ## Schedule
 
 **PDF of materials:** if you want a PDF version of the materials go to the "Print" option on your browser and select "Print to PDF" (all major browsers have this functionality).
+
+<div style="background-color: #ffeb3b; padding: 10px; border: 2px solid #ff9800; border-radius: 5px;">
+    <h2 style="color: #ff9800;">Important Notice</h2>
+    <p style="color: #333;">The materials for this course are regularly updated. Please ensure you have the latest version by visiting our course history page:</p>
+    <a href="https://bioinformatics-core-shared-training.github.io/UnivCambridge_ScRnaSeqIntro_Base/">GitHub Repository</a>
+</div>
 
 ### Day 1
 
