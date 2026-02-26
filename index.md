@@ -51,10 +51,16 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 
 **PDF of materials:** if you want a PDF version of the materials go to the "Print" option on your browser and select "Print to PDF" (all major browsers have this functionality).
 
-<div style="background-color: #ffeb3b; padding: 10px; border: 2px solid #ff9800; border-radius: 5px;">
-    <h2 style="color: #ff9800;">Important Notice</h2>
-    <p style="color: #333;">The materials for this course are regularly updated. Please ensure you have the latest version by visiting our course history page:</p>
-    <a href="https://bioinformatics-core-shared-training.github.io/UnivCambridge_ScRnaSeqIntro_Base/">GitHub Repository</a>
+<div style="background-color: #eef3f8; padding: 14px; border: 1px solid #b6c2cf; border-left: 5px solid #4a6fa5; border-radius: 6px;">
+    <h2 style="color: #2f4a6d; font-size: 1.1em; margin-top: 0; margin-bottom: 0.5em;">
+        Latest Course Materials
+    </h2>
+    <p style="color: #333; margin: 0 0 0.8em 0;">
+        The materials for this course are regularly updated. Please ensure you have the latest version by visiting our course history page:
+    <a href="https://bioinformatics-core-shared-training.github.io/UnivCambridge_ScRnaSeqIntro_Base/" style="color: #2f4a6d" target="_blank">
+        <b>Single-cell RNA-seq analysis - course listing</b>
+    </a>
+    </p>
 </div>
 
 ### Day 1
